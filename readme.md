@@ -1,10 +1,3 @@
-Perfect 👍
-Below is a **clean, copy-paste ready `README.md`**.
-You can **directly paste this into VS Code**.
-
----
-
-```md
 # 🧠 YOLOv11 Computer Vision Powered Search Application
 
 A **Streamlit-based computer vision search engine** powered by **YOLOv11**, allowing users to process large image datasets, perform object detection, and **search images using intelligent filters** such as object class, count thresholds, and logical conditions (OR / AND).
@@ -188,27 +181,3 @@ Open in browser:
 
 **Adarsh**
 Machine Learning & Computer Vision Enthusiast
-
-📍 Jamshedpur, India
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-⭐ *This project demonstrates real-world usage of computer vision, metadata indexing, and interactive search interfaces — ideal for ML portfolios and internships.*
-
-```
-
----
-
-If you want, I can also:
-- Generate `requirements.txt`
-- Add screenshots to README
-- Write an **interview-ready explanation**
-
-Just tell me 👍
-```
