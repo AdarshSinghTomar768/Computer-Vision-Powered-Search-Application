@@ -72,7 +72,7 @@ YOLO_IMAGE_SEARCH/
 ### 1️⃣ Clone the repository
 ```
 
-git clone [https://github.com/your-username/yolo-image-search.git](https://github.com/your-username/yolo-image-search.git)
+git clone [https://github.com/AdarshSinghTomar768/Computer-Vision-Powered-Search-Application](https://github.com/AdarshSinghTomar768/Computer-Vision-Powered-Search-Application)
 cd yolo-image-search
 
 ```
