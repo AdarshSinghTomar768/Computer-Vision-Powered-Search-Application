@@ -1,15 +1,17 @@
 streamlit==1.52.1
 
-# Core ML
-torch==2.2.2
-torchvision==0.17.2
+# Core ML (CPU-only, stable)
+torch==2.1.2
+torchvision==0.16.2
+
+# YOLO
 ultralytics==8.3.235
 
-# Image & CV
-opencv-python-headless==4.10.0.84
-Pillow==10.4.0
+# Computer Vision (NO GUI)
+opencv-python-headless==4.8.1.78
 
-# Data & utils
+# Image & utils
+Pillow==10.4.0
 numpy==1.26.4
 PyYAML==6.0.1
-requests==2.32.3
+requests==2.31.0
