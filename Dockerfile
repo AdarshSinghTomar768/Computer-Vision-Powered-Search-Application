@@ -2,19 +2,22 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
+# 🔥 THIS IS THE KEY LINE (DO NOT SKIP)
+ENV PYTHONPATH=/app
+
 # System dependencies
 RUN apt-get update && apt-get install -y \
     libgl1 \
     libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python deps
+# Install dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy app
+# Copy project
 COPY . .
 
-EXPOSE 7860
+EXPOSE 8501
 
-CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
