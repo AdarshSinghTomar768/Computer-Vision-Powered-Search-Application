@@ -1,6 +1,11 @@
-import streamlit as st
 import sys
 from pathlib import Path
+
+# Add project root to PYTHONPATH 
+ROOT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_DIR))
+
+import streamlit as st
 from PIL import Image, ImageDraw, ImageFont
 import base64
 import io
@@ -8,10 +13,6 @@ import io
 from src.inference import YOLOv11Inference
 from src.utils import save_metadata, load_metadata, get_unique_classes_counts
 
-# -------------------------------------------------
-# Add project root to PYTHONPATH
-# -------------------------------------------------
-sys.path.append(str(Path(__file__).parent))
 
 
 # -------------------------------------------------
