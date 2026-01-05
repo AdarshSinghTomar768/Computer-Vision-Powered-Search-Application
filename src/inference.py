@@ -11,7 +11,7 @@ class YOLOv11Inference:
         # Load config
         config = load_config()
         self.conf_thereshold = config["model"]["conf_thereshold"]
-        self.extensions = config["data"]["image_extension"]   # ✅ FIXED
+        self.extensions = config["data"]["image_extension"]   
 
     def process_image(self, image_path):
         results = self.model.predict(
